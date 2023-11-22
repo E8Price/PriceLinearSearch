@@ -1,4 +1,8 @@
 import java.util.*;
+/*
+ * Name: Ethan Price
+ * Spell Check
+ */
 class Main {
   public static void main(String[] args) {
     SpellChecker checker = new SpellChecker();
@@ -13,7 +17,9 @@ class Main {
       else
         System.out.println(word + " is misspelled!");
         
-      System.out.print("Enter a word to spell check or q to quit: ");
+      System.out.println("The search for "+word+" Took "+ checker.getCount()+" trys to check");
+      checker.setCount(0);
+      System.out.println("Enter a word to spell check or q to quit: ");
       word = scan.nextLine();
       }    
       scan.close();
