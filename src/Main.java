@@ -1,6 +1,7 @@
 import java.util.*;
 /*
- * Name: Ethan Price
+ * @author Ethan Price
+ * 11/21/23
  * Spell Check
  */
 class Main {
